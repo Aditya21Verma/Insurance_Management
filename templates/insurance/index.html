@@ -3,35 +3,23 @@
 <html lang="en" dir="ltr">
 
 <style>
-        .xyz{
+        img{
           margin-bottom: 0px;
-          background-image: url('{% static "image/homepage.jpg" %}');
-          background-size: cover;
-          background-repeat: no-repeat;
+          Padding: 0px,10px,10px,10px; 
         }
+        .a{
+          text-align: center;
+        }
+
 </style>
 <body>
   {% include "insurance/navbar.html" %}
 <br>
-<section id="section-jumbotron" style="margin-bottom: 0px;" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center xyz">
-  <div class="container text-center">
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    
-  </div>  
-</section>
 
-
-<div class="jumbotron" style="margin-top: 0px;margin-bottom: 0px;">
-
-  <p class="lead text-center"> “Whole life does two things for you: Protects your family and allows you to save for your future.”
-    </p>
-  
-  <p class="text-center">- Dinara</p>
-  
-</div>
-  {% include "insurance/footer.html" %}
-
+<p class="text-center">
+  <img src="https://media.istockphoto.com/photos/insurance-protecting-family-health-live-house-and-car-concept-picture-id1199060494?k=20&m=1199060494&s=612x612&w=0&h=Jw_XYEFO42jcs4aBFdbiEnPPNODyYjvQCpcrmXnCazM=" height ="720px" width="1080px"  style="margin-top: 0px;"></img><br></p>
+  <p class="a">“Whole life does two things for you: Protects your family and allows you to save for your future."   - Dinara
+</p>
 
 </body>
-
 </html>
